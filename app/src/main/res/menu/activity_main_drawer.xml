@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_money_stack_2"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Strategies">
+        <menu>
+
+            <item
+                android:id="@+id/Ilanmode"
+                android:icon="@drawable/ic_safe"
+                android:title="Fxchemist Ea" />
+            <item
+                android:id="@+id/eurusdgbpusdtraiding"
+                android:icon="@drawable/ic_safe"
+                android:title="Ilan Mode" />
+            <item
+                android:id="@+id/PriceAction"
+                android:icon="@drawable/ic_safe"
+                android:title="Price Action" />
+            <item
+                android:id="@+id/London"
+                android:icon="@drawable/ic_safe"
+                android:title="London" />
+        </menu>
+    </item>
+
+    <item android:title="Portfolio">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_safe"
+                android:title="Full Monitoring" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_safe"
+                android:title="Subscribe for Win" />
+        </menu>
+    </item>
+
+</menu>
